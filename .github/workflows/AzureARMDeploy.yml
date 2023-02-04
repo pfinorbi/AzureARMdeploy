@@ -24,4 +24,4 @@ jobs:
             --name StorageAccountDeployment \
             --resource-group githubdeploy-rg \
             --template-file armtemplates/storageaccount.json \
-            --parameters storageAccountType=Standard_GRS
+            --parameters storageAccountType=Standard_LRS
