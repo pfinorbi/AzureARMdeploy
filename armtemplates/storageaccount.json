@@ -24,7 +24,7 @@
       }
     },
     "variables": {
-      "storageAccountName": "[concat(replace(toLower(resourceGroup().name),'-',''), 'norbi2023sa')]"
+      "storageAccountName": "[concat(replace(toLower(resourceGroup().name),'-',''), 'sa')]"
     },
     "resources": [
       {
